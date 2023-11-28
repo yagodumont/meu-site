@@ -1,0 +1,36 @@
+
+*
+ {
+    padding: 0;
+    margin: 1;
+    font-family: Helvetica;
+    box-sizing: border-box;
+ }
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.center-text {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 50px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #5a5454;
+    color: #000000;
+  }

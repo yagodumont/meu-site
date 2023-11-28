@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cerveja Gelada</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="header">
+      <h1 id="meuTexto" class="texto1" onmouseover="trocarTexto()" onmouseout="reverterTexto()">Não é o Zé delivery</h1>
+      <h1 id="novoTexto" class="texto2">É melhor que o Zé delivery</h1>
+    </header>
+    <!-- Grid de produtos -->
+    <main class="container">
+      <section class="products-container">
+        <div class="card1">
+          <div class="product-image" id="img-1"></div>
+          <h3>Heineken 600ml</h3>
+          <p>A melhor por isso é a primeira</p>
+          <p>
+            R$
+            <span class="bold">16,00</span>
+          </p>
+          <a href="https://www.ze.delivery/entrega-produto/9992/heineken-600ml-apenas-o-liquido" target="_blank" class="btn">Comprar</a>
+
+        </div>
+        <div class="card">
+          <div class="product-image" id="img-2"></div>
+          <h4>Skol 600ml</h4>
+          <p>não tão boa, mas barata</p>
+          <p>
+            R$
+            <span class="bold">7,99</span>
+          </p>
+          <a href="https://www.ze.delivery/entrega-produto/8740/skol-600ml-apenas-o-liquido-12-unidades" target="_blank" class="btn">Comprar</a>
+        </div>
+        <div class="card1">
+          <div class="product-image" id="img-3"></div>
+          <h3>Spaten 600ml</h3>
+          <p>Quase tão boa quando a Heineken</p>
+          <p>
+            R$
+            <span class="bold">14,00</span>
+          </p>
+          <a href="https://www.ze.delivery/entrega-produto/16652/spaten-600ml-apenas-o-liquido" target="_blank" class="btn">Comprar</a>
+        </div>
+        <div class="card1">
+          <div class="product-image" id="img-4"></div>
+          <h5>Budweiser 1L</h5>
+          <p>Boa tambem</p>
+          <p>
+            R$
+            <span class="bold">12,00</span>
+          </p>
+          <a href="https://www.ze.delivery/entrega-produto/8793/budweiser-990ml-apenas-o-liquido-unidade" target="_blank" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+          <div class="product-image" id="img-5"></div>
+          <h4>Itaipava 1L</h4>
+          <p>Uma bosta, melhor toma agua</p>
+          <p>
+            R$
+            <span class="bold">7,00</span>
+          </p>
+          <a href="01/01.html" target="_blank" class="btn">Comprar</a>
+        </div>
+        <div class="card1">
+          <div class="product-image" id="img-6"></div>
+          <h5>Brama 1L</h5>
+          <p>Da pra substituir a Skol facil</p>
+          <p>
+            R$
+            <span class="bold">7,00</span>
+          </p>
+          <a href="https://www.ze.delivery/entrega-produto/8759/brahma-chopp-1l-apenas-o-liquido-12-unidades" target="_blank" class="btn">Comprar</a>
+        </div>
+      </section>
+      <script>
+        function trocarTexto() {
+          document.getElementById('meuTexto').style.display = 'none';
+          document.getElementById('novoTexto').style.display = 'block';
+        }
+  
+        function reverterTexto() {
+          document.getElementById('meuTexto').style.display = 'block';
+          document.getElementById('novoTexto').style.display = 'none';
+        }
+      </script>
+    <!-- Rodapé -->
+    <footer>
+      <p>
+        <span class="bold">Yago Dumont brejas</span>
+        &copy; 2023
+      </p>
+    </footer>
+
+    
+  </body>
+</html>
